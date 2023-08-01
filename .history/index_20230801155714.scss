@@ -7,7 +7,7 @@
 
 .main {
   width: 100%;
-  /* height: 100vh; */
+  height: 100vh;
   background-color: #fdf0e9;
 
   .top-box {
@@ -113,46 +113,46 @@
   .bottom-box {
     padding: 127px 135px 135px 135px;
     display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
+    justify-content: space-between;
+align-items: center;
     /* video {
       margin-top: 127px;
     } */
-    .bottom-right-box {
+
+    .p-1 {
+      /* margin-top: 187px; */
       margin-left: 130px;
+      color: var(--text-dark-accent, #ef6d58);
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Epilogue;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
 
-      .p-1 {
-        color: var(--text-dark-accent, #ef6d58);
-        font-feature-settings: "clig" off, "liga" off;
-        font-family: Epilogue;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 32px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-      }
+    .h1-bot {
+      margin-left: 130px;
+      color: var(--text-dark, #391400);
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Epilogue;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 48px;
+    }
 
-      .h1-bot {
-        color: var(--text-dark, #391400);
-        font-feature-settings: "clig" off, "liga" off;
-        font-family: Epilogue;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 48px;
-      }
-
-      .p-2 {
-        margin-top: 28px;
-        color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
-        font-feature-settings: "clig" off, "liga" off;
-        font-family: Epilogue;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 32px;
-      }
+    .p-2 {
+      margin: 28px 0 0 130px;
+      color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Epilogue;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
     }
   }
 }
